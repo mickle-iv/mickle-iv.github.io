@@ -1,0 +1,75 @@
+<html lang="ru">
+  <head>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/simplegallery.css" />
+	<link rel="import" href="header.html">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="jquery.touchSwipe.min.js"></script>
+
+	<script type="text/javascript" src="simplegallery.js">
+
+	/***********************************************
+	* Simple Controls Gallery- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+	* Please keep this notice intact
+	* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+	***********************************************/
+
+	</script>
+
+	<script type="text/javascript">
+
+	var mygallery=new simpleGallery({
+		wrapperid: "simplegallery1", //ID of main gallery container,
+		dimensions: ['99%', '90%'], //width/height of gallery in [pixels, pixels] or ['percentage%', pixels]
+		imagearray: [
+			["img/livadija01.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija02.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija03.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija04.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija05.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija06.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija07.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija08.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija09.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija10.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija11.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija12.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija13.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija14.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija15.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija16.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija17.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija18.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija19.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija20.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija21.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija22.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija23.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija24.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija25.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija26.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija27.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija28.jpg", "", "", "Ливадийский дворец."],
+			["img/livadija29.jpg", "", "", "Ливадийский дворец."],
+		],
+		autoplay: [true, 2500, 2], //[auto_play_boolean, delay_btw_slide_millisec, cycles_before_stopping_int]
+		persist: false,
+		scaleimage: 'both', //valid values are 'both', 'width', or 'none'
+		fadeduration: 500, //transition duration (milliseconds)
+		oninit:function(){ //event that fires when gallery has initialized/ ready to run
+		},
+		onslide:function(curslide, i){ //event that fires after each slide is shown
+			//curslide: returns DOM reference to current slide's DIV (ie: try alert(curslide.innerHTML)
+			//i: integer reflecting current image within collection being shown (0=1st image, 1=2nd etc)
+		}
+	})
+
+	</script>
+    <meta charset="utf-8">
+    <title>Крым. Сезон 2018</title>
+  </head>
+  <body>
+	<div class="gallery-header"> <a class="btn big-btn" href="index.html#livadija">На главную</a></div>  
+	<div id="simplegallery1" class="simplegallery"></div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<html lang="ru">
+  <head>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/simplegallery.css" />
+	<link rel="import" href="header.html">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="jquery.touchSwipe.min.js"></script>
+
+	<script type="text/javascript" src="simplegallery.js">
+
+	/***********************************************
+	* Simple Controls Gallery- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+	* Please keep this notice intact
+	* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+	***********************************************/
+
+	</script>
+
+	<script type="text/javascript">
+
+	var mygallery=new simpleGallery({
+		wrapperid: "simplegallery1", //ID of main gallery container,
+		dimensions: ['99%', '90%'], //width/height of gallery in [pixels, pixels] or ['percentage%', pixels]
+		imagearray: [
+			["img/balaklava00.jpg", "", "", "Балаклава. Вид на бухту от начала тропы к пляжам, Ласпинскому перевалу, горе Аскети."],
+			["img/balaklava01.jpg", "", "", "Балаклава. Вход в бухту мало заметен как с суши, так и с моря."],
+			["img/balaklava02.jpg", "", "", "Балаклава. Идем по тропе в сторону пляжей."],
+			["img/balaklava021.jpg", "", "", "Балаклава. Вид на Серебряный пляж с тропы. Кажется, рукой подать, но еще топать и топать."],
+			["img/balaklava03.jpg", "", "", "Балаклава. Идем, идем..."],
+			["img/balaklava031.jpg", "", "", "Балаклава. Местами на тропе крутовато, высоковато и страшновато."],
+			["img/balaklava04_.jpg", "", "", "Балаклава. Вот такое дерево :)"],
+			["img/balaklava05.jpg", "", "", "Балаклава. На пляже обалденно!"],
+			["img/balaklava051.jpg", "", "", "Балаклава. Серебряный пляж."],
+			["img/balaklava052.jpg", "", "", "Балаклава. Серебряный пляж."],
+			["img/balaklava06.jpg", "", "", "Балаклава. Обратно возвращаемся на катере"],
+			["img/balaklava07.jpg", "", "", "Балаклава. Входим в бухту"],
+		],
+		autoplay: [true, 2500, 2], //[auto_play_boolean, delay_btw_slide_millisec, cycles_before_stopping_int]
+		persist: false,
+		scaleimage: 'both', //valid values are 'both', 'width', or 'none'
+		fadeduration: 500, //transition duration (milliseconds)
+		oninit:function(){ //event that fires when gallery has initialized/ ready to run
+		},
+		onslide:function(curslide, i){ //event that fires after each slide is shown
+			//curslide: returns DOM reference to current slide's DIV (ie: try alert(curslide.innerHTML)
+			//i: integer reflecting current image within collection being shown (0=1st image, 1=2nd etc)
+		}
+	})
+
+	</script>
+    <meta charset="utf-8">
+    <title>Крым. Сезон 2018</title>
+  </head>
+  <body>
+	 <!-- <script>
+		var link = document.querySelector('link[rel="import"]');
+		var content = link.import;
+
+		// Grab DOM from warning.html's document.
+		var el = content.querySelector('.page-header');
+
+		document.body.appendChild(el.cloneNode(true));
+	  </script>-->
+	<div class="gallery-header"> <a class="btn big-btn" href="index.html#balaklava">На главную</a></div>  
+	<div id="simplegallery1" class="simplegallery"></div>
+  </body>
+</html>

@@ -1,0 +1,76 @@
+<html lang="ru">
+  <head>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/simplegallery.css" />
+	<link rel="import" href="header.html">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="jquery.touchSwipe.min.js"></script>
+
+	<script type="text/javascript" src="simplegallery.js">
+
+	/***********************************************
+	* Simple Controls Gallery- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+	* Please keep this notice intact
+	* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+	***********************************************/
+
+	</script>
+
+	<script type="text/javascript">
+
+	var mygallery=new simpleGallery({
+		wrapperid: "simplegallery1", //ID of main gallery container,
+		dimensions: ['99%', '90%'], //width/height of gallery in [pixels, pixels] or ['percentage%', pixels]
+		imagearray: [
+			["img/bakchisaraj01.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj02.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj03.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj04.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj05.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj06.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj07.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj08.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj09.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj10.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj11.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj12.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj13.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj14.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj15.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj16.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj17.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj18.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj19.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj20.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj21.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj22.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj23.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj24.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj25.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj26.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj27.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj28.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj29.jpg", "", "", "Ханский дворец."],
+			["img/bakchisaraj30.jpg", "", "", "Ханский дворец."],
+		],
+		autoplay: [true, 2500, 2], //[auto_play_boolean, delay_btw_slide_millisec, cycles_before_stopping_int]
+		persist: false,
+		scaleimage: 'both', //valid values are 'both', 'width', or 'none'
+		fadeduration: 500, //transition duration (milliseconds)
+		oninit:function(){ //event that fires when gallery has initialized/ ready to run
+		},
+		onslide:function(curslide, i){ //event that fires after each slide is shown
+			//curslide: returns DOM reference to current slide's DIV (ie: try alert(curslide.innerHTML)
+			//i: integer reflecting current image within collection being shown (0=1st image, 1=2nd etc)
+		}
+	})
+
+	</script>
+    <meta charset="utf-8">
+    <title>Крым. Сезон 2018</title>
+  </head>
+  <body>
+	<div class="gallery-header"> <a class="btn big-btn" href="index.html#bakchisaraj">На главную</a></div>  
+	<div id="simplegallery1" class="simplegallery"></div>
+  </body>
+</html>

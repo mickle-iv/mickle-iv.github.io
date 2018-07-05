@@ -1,0 +1,75 @@
+<html lang="ru">
+  <head>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/simplegallery.css" />
+	<link rel="import" href="header.html">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="jquery.touchSwipe.min.js"></script>
+
+	<script type="text/javascript" src="simplegallery.js">
+
+	/***********************************************
+	* Simple Controls Gallery- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+	* Please keep this notice intact
+	* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+	***********************************************/
+
+	</script>
+
+	<script type="text/javascript">
+
+	var mygallery=new simpleGallery({
+		wrapperid: "simplegallery1", //ID of main gallery container,
+		dimensions: ['99%', '90%'], //width/height of gallery in [pixels, pixels] or ['percentage%', pixels]
+		imagearray: [
+			["img/chufut-kale01.jpg", "", "", "На подступах к Чуфут-Кале."],
+			["img/chufut-kale02.jpg", "", "", "На подступах к Чуфут-Кале."],
+			["img/chufut-kale03.jpg", "", "", "На подступах к Чуфут-Кале."],
+			["img/chufut-kale04.jpg", "", "", "На подступах к Чуфут-Кале."],
+			["img/chufut-kale05.jpg", "", "", "На подступах к Чуфут-Кале."],
+			["img/chufut-kale06.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale07.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale08.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale10.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale09.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale11.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale12.jpg", "", "", "Чуфут-Кале. Хранительница склепа."],
+			["img/chufut-kale13.jpg", "", "", "Чуфут-Кале. Вид на Бахчисарайский каньон."],
+			["img/chufut-kale14.jpg", "", "", "Чуфут-Кале. Вид на Бахчисарайский каньон."],
+			["img/chufut-kale15.jpg", "", "", "Чуфут-Кале. Вид на Бахчисарайский каньон."],
+			["img/chufut-kale16.jpg", "", "", "Чуфут-Кале. Вид на Бахчисарайский каньон."],
+			["img/chufut-kale17.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale18.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale19.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale20.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale21.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale22.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale23.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale24.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale25.jpg", "", "", "Чуфут-Кале."],
+			["img/chufut-kale26.jpg", "", "", "Чуфут-Кале. Спускаемся (((" ],
+			["img/chufut-kale27.jpg", "", "", "Чуфут-Кале. Угодия монастыря."],
+			["img/chufut-kale28.jpg", "", "", "Чуфут-Кале. Угодия монастыря."],
+			["img/chufut-kale29.jpg", "", "", "Чуфут-Кале. Вид с улицы Бахчисарая"],
+			],
+		autoplay: [true, 2500, 2], //[auto_play_boolean, delay_btw_slide_millisec, cycles_before_stopping_int]
+		persist: false,
+		scaleimage: 'both', //valid values are 'both', 'width', or 'none'
+		fadeduration: 500, //transition duration (milliseconds)
+		oninit:function(){ //event that fires when gallery has initialized/ ready to run
+		},
+		onslide:function(curslide, i){ //event that fires after each slide is shown
+			//curslide: returns DOM reference to current slide's DIV (ie: try alert(curslide.innerHTML)
+			//i: integer reflecting current image within collection being shown (0=1st image, 1=2nd etc)
+		}
+	})
+
+	</script>
+    <meta charset="utf-8">
+    <title>Крым. Сезон 2018</title>
+  </head>
+  <body>
+	<div class="gallery-header"> <a class="btn big-btn" href="index.html#chufut-kale">На главную</a></div>  
+	<div id="simplegallery1" class="simplegallery"></div>
+  </body>
+</html>
